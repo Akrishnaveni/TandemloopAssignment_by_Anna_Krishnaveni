@@ -6,6 +6,6 @@ def count_multiples(list_a):
             if num%i==0:
                 result[i]+=1
     return result
-if__name__="main":
-list_a=list(map(int,input().split()))
-print(count_multiples(list_a))
+if __name__=="__main__":
+    list_a=list(map(int,input().split()))
+    print(count_multiples(list_a))

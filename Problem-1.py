@@ -13,7 +13,7 @@ class Calculator:
             return a/b
 
 
-if__name__=="main":
+if __name__=="__main__":
 calc=Calculator()
 print(calc.add(5.3,3.6))
 print(calc.substract(5.3,3.6))
